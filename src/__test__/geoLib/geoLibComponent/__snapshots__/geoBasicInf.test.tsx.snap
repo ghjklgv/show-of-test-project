@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Snapshot Test 1`] = `
+<div
+  className="content-block"
+>
+  <div
+    className="content-Title"
+  >
+    <p>
+      PART I: BASIC INFORMATION
+    </p>
+  </div>
+  <div
+    className="content-template"
+  >
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -8,
+          "marginRight": -8,
+        }
+      }
+    >
+      <div
+        className="content-row-margin"
+      >
+        <div
+          className="ant-col ant-col-6 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            className="gutter-box"
+          >
+            <p>
+              The document is submitted to
+            </p>
+            <label
+              htmlFor=""
+              style={
+                Object {
+                  "color": "#000000",
+                }
+              }
+            >
+              *
+            </label>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-12 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            className="ant-radio-group ant-radio-group-outline"
+            id={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <div
+              className="content-readio-flex"
+            >
+              <label
+                className="ant-radio-wrapper ant-radio-wrapper-checked"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
+                style={undefined}
+              >
+                <span
+                  className="ant-radio ant-radio-checked"
+                  style={Object {}}
+                >
+                  <input
+                    autoFocus={undefined}
+                    checked={true}
+                    className="ant-radio-input"
+                    disabled={false}
+                    id={undefined}
+                    name="radiogroup"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onClick={undefined}
+                    onFocus={[Function]}
+                    readOnly={undefined}
+                    tabIndex={undefined}
+                    type="radio"
+                    value="CEL"
+                  />
+                  <span
+                    className="ant-radio-inner"
+                  />
+                </span>
+                <span>
+                  General Library
+                </span>
+              </label>
+              <i
+                aria-label={undefined}
+                className="anticon"
+                onBlur={undefined}
+                onClick={undefined}
+                onContextMenu={undefined}
+                onFocus={undefined}
+                onMouseDown={undefined}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={undefined}
+                style={
+                  Object {
+                    "marginRight": "100px",
+                  }
+                }
+                tabIndex={undefined}
+              >
+                <svg
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                >
+                  <g
+                    fill="none"
+                  >
+                    <path
+                      d="M-725-448h1920v3379H-725z"
+                      fill="#FFF"
+                    />
+                    <path
+                      d="M-562-149h1586v576H-562z"
+                      fill="#EBEFF6"
+                    />
+                    <path
+                      d="M16 7.893c.023 2.214-.733 4.107-2.268 5.678-1.536 1.571-3.41 2.38-5.625 2.428-2.214.024-4.107-.732-5.678-2.267C.858 12.196.049 10.322.001 8.107-.023 5.893.733 4 2.268 2.43 3.804.858 5.678.049 7.893.001 10.107-.023 12 .733 13.57 2.268c1.571 1.536 2.38 3.41 2.428 5.625zm-7.115-4.47c-.231-.23-.526-.346-.885-.346s-.654.115-.885.346c-.23.23-.346.526-.346.885s.116.654.346.884c.231.231.526.346.885.346s.654-.115.885-.346c.23-.23.346-.525.346-.884 0-.36-.116-.654-.346-.885zm.961 9.5v-.407h-.77V6.154H6.77v.444h.77v5.918h-.77v.407h3.077z"
+                      fill="#0B2D79"
+                    />
+                  </g>
+                </svg>
+              </i>
+              <label
+                className="ant-radio-wrapper"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
+                style={undefined}
+              >
+                <span
+                  className="ant-radio"
+                  style={Object {}}
+                >
+                  <input
+                    autoFocus={undefined}
+                    checked={false}
+                    className="ant-radio-input"
+                    disabled={false}
+                    id={undefined}
+                    name="radiogroup"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onClick={undefined}
+                    onFocus={[Function]}
+                    readOnly={undefined}
+                    tabIndex={undefined}
+                    type="radio"
+                    value="GIU"
+                  />
+                  <span
+                    className="ant-radio-inner"
+                  />
+                </span>
+                <span>
+                  Geotechnical Information Unit
+                </span>
+              </label>
+              <i
+                aria-label={undefined}
+                className="anticon"
+                onBlur={undefined}
+                onClick={undefined}
+                onContextMenu={undefined}
+                onFocus={undefined}
+                onMouseDown={undefined}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={undefined}
+                tabIndex={undefined}
+              >
+                <svg
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                >
+                  <g
+                    fill="none"
+                  >
+                    <path
+                      d="M-725-448h1920v3379H-725z"
+                      fill="#FFF"
+                    />
+                    <path
+                      d="M-562-149h1586v576H-562z"
+                      fill="#EBEFF6"
+                    />
+                    <path
+                      d="M16 7.893c.023 2.214-.733 4.107-2.268 5.678-1.536 1.571-3.41 2.38-5.625 2.428-2.214.024-4.107-.732-5.678-2.267C.858 12.196.049 10.322.001 8.107-.023 5.893.733 4 2.268 2.43 3.804.858 5.678.049 7.893.001 10.107-.023 12 .733 13.57 2.268c1.571 1.536 2.38 3.41 2.428 5.625zm-7.115-4.47c-.231-.23-.526-.346-.885-.346s-.654.115-.885.346c-.23.23-.346.526-.346.885s.116.654.346.884c.231.231.526.346.885.346s.654-.115.885-.346c.23-.23.346-.525.346-.884 0-.36-.116-.654-.346-.885zm.961 9.5v-.407h-.77V6.154H6.77v.444h.77v5.918h-.77v.407h3.077z"
+                      fill="#0B2D79"
+                    />
+                  </g>
+                </svg>
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -8,
+          "marginRight": -8,
+        }
+      }
+    >
+      <div
+        className="content-row-margin"
+      >
+        <div
+          className="ant-col ant-col-6 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            className="gutter-box"
+          >
+            <p>
+              Document Title
+            </p>
+            <label
+              htmlFor=""
+              style={
+                Object {
+                  "color": "#000000",
+                }
+              }
+            >
+              *
+            </label>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-11 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <input
+            className="ant-input"
+            disabled={false}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            type="text"
+            value="Title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -8,
+          "marginRight": -8,
+        }
+      }
+    >
+      <div
+        className="content-row-margin"
+      >
+        <div
+          className="ant-col ant-col-6 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            className="content-two-row-style"
+          >
+            <div
+              className="gutter-box"
+            >
+              <p>
+                Consultant / Contractor / Author
+              </p>
+              <label
+                htmlFor=""
+                style={
+                  Object {
+                    "color": "#000000",
+                  }
+                }
+              >
+                *
+              </label>
+            </div>
+            <label>
+              (please fill in at least one item)
+            </label>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-5 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <input
+              className="ant-input"
+              disabled={false}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-1 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <i
+              aria-label={undefined}
+              className="anticon"
+              onClick={undefined}
+              tabIndex={undefined}
+            >
+              <svg
+                height="26"
+                viewBox="0 0 26 26"
+                width="26"
+              >
+                <g
+                  fill="none"
+                >
+                  <path
+                    d="M-820-643h1920v4804H-820z"
+                    fill="#FFF"
+                  />
+                  <path
+                    d="M-657-344H929v576H-657z"
+                    fill="#EBEFF6"
+                  />
+                  <path
+                    d="M10.92 23.416H8.4l6.216-19.488h2.568z"
+                    fill="#0B2D79"
+                  />
+                </g>
+              </svg>
+            </i>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-5 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <input
+              className="ant-input"
+              disabled={false}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-1 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <i
+              aria-label={undefined}
+              className="anticon"
+              onClick={undefined}
+              tabIndex={undefined}
+            >
+              <svg
+                height="26"
+                viewBox="0 0 26 26"
+                width="26"
+              >
+                <g
+                  fill="none"
+                >
+                  <path
+                    d="M-820-643h1920v4804H-820z"
+                    fill="#FFF"
+                  />
+                  <path
+                    d="M-657-344H929v576H-657z"
+                    fill="#EBEFF6"
+                  />
+                  <path
+                    d="M10.92 23.416H8.4l6.216-19.488h2.568z"
+                    fill="#0B2D79"
+                  />
+                </g>
+              </svg>
+            </i>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-5 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <input
+              className="ant-input"
+              disabled={false}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -8,
+          "marginRight": -8,
+        }
+      }
+    >
+      <div
+        className="content-row-margin"
+      >
+        <div
+          className="ant-col ant-col-6 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            className="content-two-row-style"
+          >
+            <div
+              className="gutter-box"
+            >
+              <p>
+                Client Department / Document Owner
+              </p>
+              <label
+                htmlFor=""
+                style={
+                  Object {
+                    "color": "#000000",
+                  }
+                }
+              >
+                *
+              </label>
+            </div>
+            <label>
+              (please fill in at least one item)
+            </label>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-5 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <input
+              className="ant-input"
+              disabled={false}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-1 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <i
+              aria-label={undefined}
+              className="anticon"
+              onClick={undefined}
+              tabIndex={undefined}
+            >
+              <svg
+                height="26"
+                viewBox="0 0 26 26"
+                width="26"
+              >
+                <g
+                  fill="none"
+                >
+                  <path
+                    d="M-820-643h1920v4804H-820z"
+                    fill="#FFF"
+                  />
+                  <path
+                    d="M-657-344H929v576H-657z"
+                    fill="#EBEFF6"
+                  />
+                  <path
+                    d="M10.92 23.416H8.4l6.216-19.488h2.568z"
+                    fill="#0B2D79"
+                  />
+                </g>
+              </svg>
+            </i>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-5 gutter-row"
+          style={
+            Object {
+              "paddingLeft": 8,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <input
+              className="ant-input"
+              disabled={false}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,962 @@
+span.ant-radio + * {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+button:focus {
+  outline: 0;
+}
+button {
+  border: 0;
+}
+.ant-input:focus {
+  box-shadow: none;
+}
+.ant-table-tbody a {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0b2d79;
+}
+.ant-input:disabled {
+  outline: none;
+  color: #000000;
+}
+.ant-checkbox-disabled .ant-checkbox-input {
+  border: solid 0.5px #7f7e7e;
+  background-color: #ececec;
+}
+.ant-input[disabled]:hover {
+  border-color: #0b2d79;
+  border-right-width: 1px !important;
+}
+.ant-input:hover,
+.ant-input:focus {
+  border: 1px solid rgba(49, 84, 140, 1);
+}
+.ant-tooltip-inner {
+  width: 332px;
+  /* height: 80px; */
+  background-color: rgba(11, 45, 121, 1);
+}
+.geo-table-block .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background: #ffffff00;
+  cursor: pointer;
+}
+
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  /* background: #ffffff00; */
+  background: #ececec;
+}
+.ant-upload .ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active,
+.ant-btn.active {
+  background-color: rgba(71, 195, 111, 1);
+  color: white;
+  border-color: rgba(71, 195, 111, 1);
+}
+.ant-upload button {
+  width: 178px;
+  height: 42px;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: rgba(71, 195, 111, 1);
+  color: white;
+  border-color: rgba(71, 195, 111, 1);
+}
+.geo-detail-cancel:hover,
+.geo-detail-cancel:focus {
+  background-color: white !important;
+  color: rgba(71, 195, 111, 1) !important;
+  border: 1px solid rgba(71, 195, 111, 1) !important;
+}
+.ant-upload .geo-detail-sent:hover,
+.geo-detail-sent:focus {
+  background-color: rgba(71, 195, 111, 1);
+  color: white;
+  border-color: rgba(71, 195, 111, 1);
+}
+.ant-upload button:disabled {
+  pointer-events: none;
+  border-color: #c6c6c6;
+  color: #7f7e7e;
+  background-color: #c6c6c6;
+}
+.ant-upload button:disabled .anticon-upload {
+  color: white;
+}
+
+.ant-input {
+  height: 42px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(49, 84, 140, 1);
+}
+.filter-block .ant-select-dropdown {
+  width: 175px !important;
+}
+.ant-select-selection__rendered {
+  font-size: 1rem;
+  line-height: 38px;
+}
+.ant-select-dropdown-menu-item {
+  line-height: 1.25;
+  font-size: 1rem;
+  padding: 9px 11px;
+}
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: #0b2d79 !important;
+  color: white !important;
+}
+.ant-select-selection--single {
+  /* left: 336px; */
+  /* top: 282px; */
+  width: 175px;
+  height: 42px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(49, 84, 140, 1);
+}
+.ant-select-arrow {
+  color: rgba(49, 84, 140, 1);
+}
+
+/* .ant-select-selection__placeholder,
+.ant-select-search__field__placeholder {
+  top: 70%;
+} */
+
+.ant-select-selection__choice {
+  height: 34px !important;
+  margin-top: 3px !important;
+  line-height: 32px !important;
+  border-radius: 4px;
+  border: solid 1px #0b2d79 !important;
+  background-color: #ebeff6 !important;
+  color: #000000 !important;
+}
+.span.ant-radio + * {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.plusButton.ant-btn {
+  width: 56px;
+  height: 56px;
+  background: #47c36f;
+  border: 0;
+  padding: 1rem;
+  border-radius: 50px;
+  outline: none;
+}
+.back-Style {
+  display: flex;
+  align-items: center;
+}
+.back-Style p {
+  color: #47c36f;
+  margin-bottom: 0;
+  margin-left: 15px;
+  font-size: 1.25rem;
+}
+.geo-list-title {
+  margin-top: 1.25rem;
+  margin-bottom: 30px;
+  height: 35px;
+  color: rgba(71, 195, 111, 1);
+  font-size: 1.75rem;
+  text-align: left;
+  font-family: Muli-Bold;
+}
+
+.geo-header-block {
+  margin-top: 97px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.geo-filter-block {
+  margin-bottom: 30px;
+}
+.geo-table-block {
+  padding-right: 100px;
+}
+.geo-detail-block {
+  margin-top: 30px;
+}
+.geo-table-block thead tr {
+  background-color: white;
+  border-bottom-color: #0b2d79;
+}
+
+.geo-table-block thead tr th {
+  color: rgba(11, 45, 121, 1);
+  font-size: 1rem;
+  text-align: left;
+  padding-bottom: 11px;
+  font-family: Muli-Regular;
+  border-bottom-color: #0b2d79;
+}
+
+.geo-assignModel-style {
+  width: 650px !important;
+  height: 480px !important;
+  /* border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 10px 0px rgba(173, 173, 173, 0.8);
+  border: 1px solid rgba(236, 236, 236, 1); */
+}
+
+.geo-assignModel-style .ant-modal-header {
+  border: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.geo-assignModel-style .ant-modal-title {
+  color: rgba(71, 195, 111, 1);
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: Muli-Bold;
+}
+
+.assign-content-block {
+  display: flex;
+  align-items: center;
+}
+.assign-content-block .gutter-box {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  width: 252px;
+  margin-right: 1.25rem;
+}
+
+.geo-assignModel-style .ant-modal-body {
+  padding-top: 66px;
+  padding-bottom: 232px;
+  padding-left: 70px;
+  padding-right: 52px;
+}
+
+.geo-assignModel-style .ant-modal-footer {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: rgba(235, 239, 246, 1);
+}
+
+.geo-assignModel-style .ant-modal-footer .ant-btn-primary {
+  width: 98px;
+  height: 42px;
+  color: white !important;
+  border-radius: 4px !important;
+  background-color: rgba(71, 195, 111, 1) !important;
+  font-family: Muli;
+  font-size: rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.geo-assignModel-style .ant-modal-footer .ant-btn-primary:disabled {
+  background-color: #c6c6c6 !important;
+  color: #7f7e7e !important;
+  border-color: #c6c6c6 !important;
+}
+.geo-assignModel-style .ant-modal-footer .ant-btn {
+  width: 98px;
+  height: 42px;
+  color: rgba(71, 195, 111, 1);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(71, 195, 111, 1);
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.assign-content-block .ant-select-selection--multiple {
+  /* height: 42px; */
+  border: solid 1px #31548c;
+}
+
+.geo-approverModel-style {
+  width: 1200px !important;
+  height: 770px !important;
+}
+
+.geo-approverModel-style .content-block {
+  background-color: white;
+  padding-left: 141px;
+  padding-bottom: 30px;
+}
+
+.geo-approverModel-style .ant-modal-header {
+  border: 0;
+}
+
+.geo-approverModel-style .ant-modal-title {
+  font-family: Muli;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(71, 195, 111, 1);
+}
+
+.geo-approverModel-style .ant-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  background-color: rgba(235, 239, 246, 1);
+}
+
+.geo-approverModel-style .ant-modal-body {
+  /* padding-bottom: 150px; */
+  /* padding-left: 30px; */
+}
+.geo-approverModel-style .ant-modal-footer .ant-btn {
+  height: 42px;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #47c36f;
+  border-radius: 4px;
+  border: 1px solid #47c36f;
+  margin-left: 20px;
+  padding: 0 23px;
+}
+.geo-approverModel-style .ant-modal-footer .ant-btn-primary {
+  color: #ffffff;
+  background-color: #47c36f;
+}
+.geo-approverModel-style .ant-modal-footer .ant-btn-primary[disabled] {
+  color: #7f7e7e;
+  border-color: #c6c6c6;
+  background: #c6c6c6;
+}
+
+
+.ant-table-tbody > tr > td {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  border-color: #0b2d79;
+  border-bottom: solid;
+  border-width: 1px;
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+.geo-table-block .ant-table-tbody > tr:nth-child(odd) > td {
+  background-color: #ebeff6 !important;
+}
+.geo-table-block .ant-table-tbody > tr.ant-table-row-hover > td {
+  font-weight: bold;
+}
+.title-bar {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.geo-detail-cancel.ant-btn {
+  outline: none;
+  width: 101px;
+  height: 42px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #47c36f;
+  color: #47c36f;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.geo-detail-sent.ant-btn-primary {
+  outline: none;
+  margin-left: 1.25rem;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border: 1px solid #47c36f;
+  width: 101px;
+  height: 42px;
+  border-radius: 4px;
+  background-color: #47c36f;
+}
+.geo-detail-sent.ant-btn-primary:disabled {
+  background-color: #c6c6c6;
+  color: #7f7e7e;
+}
+
+.warring-model-model-templete .ant-modal-header {
+  border: 0;
+}
+
+.warring-model-model-templete-title {
+  display: flex;
+  align-items: center;
+}
+
+.warring-model-model-templete-title p {
+  font-family: Muli;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #df4242;
+}
+.warring-model-content p {
+  font-family: Muli;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212b36;
+}
+.warring-model-model-templete .ant-modal-footer {
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ebeff6;
+}
+
+.warring-model-model-templete .ant-modal-footer button {
+  border-radius: 4px;
+  border: solid 1px #47c36f;
+  background-color: #ffffff;
+  color: #47c36f;
+  width: 70px;
+  height: 42px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.warring-model-model-templete .ant-modal-footer .ant-btn-primary {
+  display: none;
+}
+
+.ant-notification-notice-icon {
+  margin-top: 4px;
+}
+
+.ant-notification-notice {
+  padding: 22px;
+}
+
+.notification-icon {
+  width: 30px;
+  height: 30px;
+  padding-left: 7px;
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+}
+
+.ant-notification-notice-message {
+  font-size: 1.125rem;
+  word-wrap: break-word;
+  width: 230px;
+  /* font-weight: bold; */
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.notification-success {
+  display: flex;
+  align-items: center;
+
+  width: 360px;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #134acb;
+}
+.notification-success .ant-notification-notice-icon {
+  margin: 0;
+}
+
+.notification-success .ant-notification-notice-with-icon {
+  align-items: center;
+  display: flex;
+}
+.notification-success .notification-icon {
+  padding: 0;
+}
+.notification-success .notification-icon {
+  background-color: #134acb !important;
+}
+.notification-error {
+  width: 360px;
+  height: 80px;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px 0 rgba(173, 173, 173, 0.8);
+  background-color: #df4242;
+}
+
+.bar-name {
+  color: rgba(71, 195, 111, 1);
+  font-size: 1.75rem;
+  text-align: left;
+  font-family: Muli-Bold;
+}
+.filter-block {
+  align-items: center;
+  display: flex;
+}
+.filter-block p {
+  color: rgba(33, 43, 54, 1);
+  font-size: 1rem;
+  text-align: left;
+  font-family: Muli-Bold;
+  margin: 0;
+  margin-right: 10px;
+}
+.coordinat-table-content p {
+  color: #212b36 !important;
+  margin: 0;
+  padding-left: 12px;
+}
+.content-template {
+  padding: 30px;
+}
+.content-two-row-style {
+  display: flex;
+  flex-direction: column;
+}
+.content-block {
+  background-color: #ebeff6;
+  padding: 30px;
+}
+.content-Title p {
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(11, 45, 121, 1);
+  font-size: 1.25rem;
+  font-family: Muli-Bold;
+}
+.content-row-margin {
+  margin-top: 30px;
+}
+.content-row-margin p {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.content-row-margin > div > div {
+  color: rgba(0, 0, 0, 1);
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.gutter-box {
+  display: flex;
+}
+
+.gutter-box p {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0;
+}
+.gutter-box label {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.content-row-margin > div > div label {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7f7e7e;
+}
+.uploadButtonTemplete label {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #7f7e7e !important;
+}
+.content-readio-flex {
+  display: flex;
+}
+.uploadButtonTemplete {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+.uploadButtonTemplete p {
+  font-size: 1rem;
+  color: #7f7e7e;
+  margin: 0;
+}
+.radio-input-block > .ant-radio-group {
+  display: flex;
+  padding-left: 8px;
+}
+.radio-input-other {
+  width: 100%;
+  margin-left: 200px;
+}
+
+.radio-input-other p {
+  font-family: Muli;
+  font-size: 1rem;
+  color: #7f7e7e;
+}
+.geo-lib-checkboxStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.geo-lib-checkboxStyle > label {
+  margin-left: 0 !important;
+  margin-bottom: 10px;
+}
+
+.geo-lib-checkboxStyle > .ant-checkbox-wrapper > span {
+  color: #000000;
+  font-size: 14px;
+  text-align: left;
+  font-family: Muli-Regular;
+}
+
+.content-coordinates-table-style thead tr {
+  background-color: #ffffff00;
+  border: solid;
+  border-color: #31548c;
+  border-width: 1px;
+}
+
+.content-coordinates-table-style thead th {
+  border: 1px solid #31548c;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: #ebeff6 !important;
+}
+
+.content-coordinates-table-style tbody td:first-child {
+  border: 1px solid #31548c;
+  padding: 1rem;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: #ebeff6;
+}
+.content-coordinates-table-style
+  tbody
+  tr:hover:not(.ant-table-expanded-row)
+  > td:first-child {
+  background-color: #ebeff6 !important;
+}
+.content-coordinates-table-style tbody td {
+  border: 1px solid #31548c;
+  padding: 5px;
+  background-color: #ececec;
+}
+
+.content-upload-table-style {
+  margin-top: 10px;
+}
+
+.content-upload-table-style thead tr {
+  background-color: #ffffff00;
+  border: solid;
+  border-color: #31548c;
+  border-width: 1px;
+}
+
+.content-upload-table-style thead th {
+  border: 1px solid #31548c;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.content-upload-table-style tbody tr {
+  background-color: #ececec;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.content-upload-table-style tbody td {
+  border: 1px solid #31548c;
+}
+
+.content-row-margin button {
+  width: auto;
+  height: 42px;
+  border-radius: 4px;
+  background-color: rgba(71, 195, 111, 1);
+  border-color: rgba(71, 195, 111, 1);
+  padding: 0 12px;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: rgba(71, 195, 111, 1);
+  background-color: rgba(71, 195, 111, 1);
+}
+.ant-radio-disabled.ant-radio-checked .ant-radio-inner {
+  background-color: #c6c6c6 !important ;
+}
+.ant-radio-disabled .ant-radio-inner::after {
+  background-color: white;
+}
+.ant-radio-inner::after {
+  background-color: white;
+}
+.ant-checkbox.ant-checkbox-checked.ant-checkbox-disabled .ant-checkbox-inner {
+  background-color: #c6c6c6 !important;
+  border-color: #c6c6c6 !important;
+}
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner::after {
+  border-color: white;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  border-color: rgba(71, 195, 111, 1);
+  background-color: rgba(71, 195, 111, 1);
+}
+
+.content-upload-table-style .ant-table-placeholder {
+  border-top: 0 !important;
+  background-color: rgba(236, 236, 236, 1);
+  border: 1px solid rgba(49, 84, 140, 1);
+  color: #212b36;
+  font-size: 1rem;
+  text-align: left;
+  font-family: Muli;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.geo-lib-wrapper {
+  height: calc(100vh - 106px);
+  overflow: auto;
+}
+.can-sort {
+  display: flex;
+}
+.can-sort span {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.can-sort .anticon {
+  vertical-align: middle;
+}
+.can-sort svg {
+  width: 8px;
+}
+.inputTdStyle {
+  background-color: #ebeff6 !important;
+}
+.inputTdStyleDisabled {
+  background-color: #ececec !important;
+}
+
+.ant-table-pagination.ant-pagination {
+  float: none;
+  text-align: center;
+  margin: 50px auto;
+}
+.ant-table-pagination .ant-pagination-item {
+  min-width: 28px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 1rem;
+  font-family: 'Muli', Sans-serif;
+  font-weight: normal;
+  color: #7f7e7e;
+  border: none;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-right: 2px;
+}
+.ant-table-pagination .ant-pagination-item a {
+  color: #7f7e7e;
+  transition: color 0.3s;
+}
+.ant-table-pagination .ant-pagination-item a:hover {
+  color: #47c36f;
+}
+.ant-table-pagination .ant-pagination-item-active {
+  font-weight: normal;
+  color: #ffffff;
+  background: #47c36f;
+}
+.ant-table-pagination .ant-pagination-item-active a {
+  color: #ffffff;
+}
+.ant-table-pagination .ant-pagination-prev,
+.ant-table-pagination .ant-pagination-next {
+  min-width: 28px;
+  width: 28px;
+  height: 28px;
+}
+.ant-table-pagination .ant-pagination-prev .ant-pagination-item-link,
+.ant-table-pagination .ant-pagination-next .ant-pagination-item-link {
+  position: relative;
+  font-size: 0;
+  border: none;
+  border-radius: 2px;
+}
+.ant-table-pagination .ant-pagination-prev .ant-pagination-item-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #c6c6c6;
+  border-bottom: 2px solid #c6c6c6;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -2px;
+  transform: rotate(45deg);
+  transition: border 0.3s;
+}
+.ant-table-pagination .ant-pagination-next .ant-pagination-item-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #c6c6c6;
+  border-right: 2px solid #c6c6c6;
+  top: 50%;
+  right: 50%;
+  margin-top: -5px;
+  margin-right: -2px;
+  transform: rotate(45deg);
+  transition: border 0.3s;
+}
+.ant-table-pagination
+  .ant-pagination-prev:hover
+  .ant-pagination-item-link:before,
+.ant-table-pagination
+  .ant-pagination-next:hover
+  .ant-pagination-item-link:before {
+  border-color: #47c36f;
+}
+.ant-table-pagination
+  .ant-pagination-prev.ant-pagination-disabled
+  .ant-pagination-item-link:before,
+.ant-table-pagination
+  .ant-pagination-next.ant-pagination-disabled
+  .ant-pagination-item-link:before {
+  border-color: #e7e7e7;
+}

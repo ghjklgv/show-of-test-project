@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-standard"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "node_modules/**/*.js",
+      "coverage/lcov-report/*.js",
+      "src/**/*.test.*",
+      "src/registerServiceWorker.ts",
+      "src/index.tsx",
+      "jest.config.js",
+      "src/heapMap/heapMap.tsx"
+    ]
+  },
+  "rules": {
+    "no-empty-interface": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "member-access": [true, "no-public"],
+    "max-classes-per-file": [true, 10],
+    "no-shadowed-variable": false,
+    "no-trailing-whitespace": [false],
+    "object-literal-sort-keys": false
+  },
+  "jsRules": {
+    "no-console": false
+  }
+}

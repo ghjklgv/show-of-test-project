@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <rect id="b" width="620" height="300" rx="4"/>
+        <filter id="a" width="105%" height="110.3%" x="-2.5%" y="-4.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.678442029 0 0 0 0 0.67783443 0 0 0 0 0.67783443 0 0 0 0.8 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-680-376h1920V704H-680z"/>
+        <path fill="#EBEFF6" d="M-517-201h1586v1625H-517z"/>
+        <path fill="#081D4E" d="M-680-376h1920v2336H-680z" opacity=".45"/>
+        <g transform="translate(-30 -30)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <rect width="619" height="299" x=".5" y=".5" fill="#FFF" stroke="#ECECEC" stroke-linejoin="square" rx="4"/>
+        </g>
+        <path fill="#DF4242" d="M14.36 3.391c.28.176.518.405.702.672l10.53 15.27c.75 1.09.437 2.556-.702 3.276a2.55 2.55 0 0 1-1.361.391H2.47C1.106 23 0 21.941 0 20.635c0-.463.142-.916.409-1.303l10.529-15.27c.751-1.09 2.284-1.39 3.423-.67zm-2.048 1.54L1.783 20.201a.764.764 0 0 0-.136.434c0 .435.369.788.824.788h21.058a.85.85 0 0 0 .454-.13.768.768 0 0 0 .233-1.092L13.687 4.93a.846.846 0 0 0-1.375 0zm.45 12.039c.335 0 .624.113.867.34.242.227.363.501.363.823 0 .331-.119.61-.356.837-.237.227-.529.34-.875.34s-.637-.113-.874-.34a1.114 1.114 0 0 1-.356-.837c0-.322.12-.596.363-.823.242-.227.531-.34.867-.34zm-.016-7.663c.297 0 .54.087.727.262a.897.897 0 0 1 .282.689v5.065a.92.92 0 0 1-.282.696c-.188.18-.43.27-.727.27-.296 0-.536-.09-.719-.27a.932.932 0 0 1-.274-.696v-5.065c0-.275.094-.502.282-.682a.988.988 0 0 1 .711-.27z"/>
+    </g>
+</svg>
